@@ -77,7 +77,7 @@
                         <ul class="vmenu">
                               <li><a href="http://blogs.developpeur.org/vivien/" class="active"><span class="l"> </span><span class="r"> </span><span class="t">Vivien FABING</span></a></li>
                               <li><a href="http://housseinitoumani.com"><span class="l"> </span><span class="r"> </span><span class="t">Housseini TOUMANI</span></a></li>
-                              <li><a href="http://steffirakotozay.com"><span class="l"> </span><span class="r"> </span><span class="t">Steffi RAKOTOZAFY</span></a></li>
+                              <li><a href="http://steffirakotozafy.com"><span class="l"> </span><span class="r"> </span><span class="t">Steffi RAKOTOZAFY</span></a></li>
                           </ul>
                         <div class="blockcontent">
                           <div class="blockcontent-body">
