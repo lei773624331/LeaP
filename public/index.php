@@ -7,7 +7,7 @@
     -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-		<title>About ME</title>
+		<title>I'm Lea</title>
 		<link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
 		<!--[if IE 6]><link rel="stylesheet" href="./style.ie6.css" type="text/css" media="screen" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" href="./style.ie7.css" type="text/css" media="screen" /><![endif]-->
