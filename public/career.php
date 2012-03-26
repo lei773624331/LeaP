@@ -7,7 +7,7 @@
     -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-		<title>ME</title>
+		<title>CV</title>
 		<link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
 		<!--[if IE 6]><link rel="stylesheet" href="./style.ie6.css" type="text/css" media="screen" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" href="./style.ie7.css" type="text/css" media="screen" /><![endif]-->
@@ -33,9 +33,9 @@
 						<div class="nav-l"></div>
 						<div class="nav-r"></div>
 						<ul class="menu">
-							<li><a href="./me.php" class="active"><span class="l"> </span><span class="r"> </span><span class="t">ME</span></a></li>
+							<li><a href="./me.php"><span class="l"> </span><span class="r"> </span><span class="t">ME</span></a></li>
 							<li><a href="./learning.php"><span class="l"> </span><span class="r"> </span><span class="t">BLOG</span></a></li>
-							<li><a href="./career.php"><span class="l"> </span><span class="r"> </span><span class="t">CV</span></a></li>
+							<li><a href="./career.php" class="active"><span class="l"> </span><span class="r"> </span><span class="t">CV</span></a></li>
 						</ul>
 					</div>
 					<div class="content-layout">
@@ -44,13 +44,9 @@
 								<div class="post">
 									<div class="post-body">
 										<div class="post-inner article">
-											<h2 class="postheader">ME</h2>
+											<h2 class="postheader">CV</h2>
 											<div class="postcontent">
-												<p>Enter Page content here...</p>
-												<img src="./images/WP_000437.jpg" alt="an image" style="float: left; " width="424" height="238" />
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra, tellus sit amet congue vulputate, nisi erat iaculis nibh, vitae feugiat sapien ante eget mauris. Cras elit nisl, rhoncus nec iaculis ultricies, feugiat eget sapien. Pellentesque ac felis tellus.</p>
-												<p>Aenean sollicitudin imperdiet arcu, vitae dignissim est posuere id. Duis placerat justo eu nunc interdum ultrices. Phasellus elit dolor, porttitor id consectetur sit amet, posuere id magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-												<p> Suspendisse pharetra auctor pharetra. Nunc a sollicitudin est. Curabitur ullamcorper gravida felis, sit amet scelerisque lorem iaculis sed. Donec vel neque in neque porta venenatis sed sit amet lectus. Fusce ornare elit nisl, feugiat bibendum lorem. Vivamus pretium dictum sem vel laoreet. In fringilla pharetra purus, semper vulputate ligula cursus in. Donec at nunc nec dui laoreet porta eu eu ipsum. Sed eget lacus sit amet risus elementum dictum.</p>
+												<p><br /></p>
 											</div>
 											<div class="cleared"></div>
 										</div>

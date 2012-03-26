@@ -133,32 +133,6 @@ jQuery(function () {
 });
 /* end Layout */
 
-/* begin VMenu */
-jQuery(function() {
-    jQuery('ul.vmenu li').not(':first').before('<li class="vsubmenu-separator"><span class="vsubmenu-separator-span"> </span></li>');
-    jQuery('ul.vmenu > li.vsubmenu-separator').removeClass('vsubmenu-separator').addClass('vmenu-separator').children('span').removeClass('vsubmenu-separator-span').addClass('vmenu-separator-span');
-    jQuery('ul.vmenu > li > ul > li.vsubmenu-separator:first-child').removeClass('vsubmenu-separator').addClass('vmenu-separator').addClass('vmenu-separator-first').children('span').removeClass('vsubmenu-separator-span').addClass('vmenu-separator-span');
-});  /* end VMenu */
-
-/* begin VMenuItem */
-jQuery(function() {
-    jQuery.each(jQuery('ul.vmenu'), function(idx, val) {
-        var m = jQuery(val);
-        m.find("ul, a").removeClass('active');
-        var links = m.find('a');
-        for (var i = 0; i < links.length; i++){
-            if (links[i].href == window.location.href) {
-                var a = jQuery(links[i]);
-                a.parent().children('ul').addClass('active');
-                a.parents('ul.vmenu ul').addClass('active');
-                a.parents('ul.vmenu li').children('a').addClass('active');
-                break; 
-            } 
-        }
-    });
-});
-/* end VMenuItem */
-
 /* begin Button */
 function artButtonSetup(className) {
     jQuery.each(jQuery("a." + className + ", button." + className + ", input." + className), function(i, val) {
