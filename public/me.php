@@ -7,7 +7,7 @@
     -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
-		<title>ME</title>
+		<title>About ME</title>
 		<link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
 		<!--[if IE 6]><link rel="stylesheet" href="./style.ie6.css" type="text/css" media="screen" /><![endif]-->
 		<!--[if IE 7]><link rel="stylesheet" href="./style.ie7.css" type="text/css" media="screen" /><![endif]-->
@@ -33,7 +33,7 @@
 						<div class="nav-l"></div>
 						<div class="nav-r"></div>
 						<ul class="menu">
-							<li><a href="./me.php" class="active"><span class="l"> </span><span class="r"> </span><span class="t">ME</span></a></li>
+							<li><a href="./me.php" class="active"><span class="l"> </span><span class="r"> </span><span class="t">About ME</span></a></li>
 							<li><a href="./learning.php"><span class="l"> </span><span class="r"> </span><span class="t">BLOG</span></a></li>
 							<li><a href="./career.php"><span class="l"> </span><span class="r"> </span><span class="t">CV</span></a></li>
 						</ul>
@@ -44,7 +44,7 @@
 								<div class="post">
 									<div class="post-body">
 										<div class="post-inner article">
-											<h2 class="postheader">ME</h2>
+											<h2 class="postheader">About ME</h2>
 											<div class="postcontent">
 												<p>Enter Page content here...</p>
 												<img src="./images/WP_000437.jpg" alt="an image" style="float: left; " width="424" height="238" />

@@ -202,9 +202,9 @@ body
   background-color: #B2C2D1;
   
   background-image: url('images/Bottom_texture.jpg');
-  background-repeat: repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
-  background-position: top left;
+  background-position: top center;
 }
 
 
@@ -243,7 +243,7 @@ table.position
   margin-top: 50px;
   margin-bottom: 0;
   cursor:auto;
-  width: 800px;
+  width: 600px;
 }
 
 .sheet-body
@@ -268,7 +268,7 @@ table.position
 
 #page-background-top-texture, #page-background-middle-texture, #page-background-glare
 {
-  min-width: 800px;
+  min-width: 600px;
 }
 
 
@@ -291,7 +291,7 @@ div.header
 div.header-center
 {
 	position: relative;
-	width: 800px;
+	width: 600px;
 	left:50%;
 }
 
@@ -301,7 +301,7 @@ div.header-jpeg
   position: absolute;
   top: 0;
   left:-50%;
-  width: 800px;
+  width: 600px;
   height: 150px;
   background-image: url('images/header.jpg');
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ h1.logo-name
   font-size: 28px;
   padding: 0;
   margin: 0;
-  color: #1A3647 !important;
+  color: #1C394A !important;
 
 }
 
@@ -344,7 +344,7 @@ h1.logo-name
   font-size: 28px;
   padding: 0;
   margin: 0;
-  color: #1A3647 !important;
+  color: #1C394A !important;
 }
 
 
@@ -359,7 +359,7 @@ h2.logo-text a:hover
   font-size: 14px;
   padding: 0;
   margin: 0;
-  color: #152B38 !important;
+  color: #162E3C !important;
 }
 
 h2.logo-text
@@ -494,8 +494,8 @@ h2.logo-text
 .nav-r
 {
   right: 0;
-  width: 800px;
-  clip: rect(auto, auto, auto, 800px);
+  width: 600px;
+  clip: rect(auto, auto, auto, 600px);
 }
 
 /* end Menu */
@@ -734,13 +734,49 @@ h2.logo-text
 .block-body
 {
   position: relative;
-  padding: 5px;
+  padding: 0;
 }
 
 
 
 
 /* end Box, Block */
+
+/* begin BlockHeader */
+.blockheader
+{
+  margin-bottom: 0;
+  position: relative;
+  height: 26px;
+}
+
+ .blockheader h3.t
+{
+  position: relative;
+  height: 26px;
+  color: #6382A1;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  margin:0;
+  padding: 0 10px 0 5px;
+  white-space: nowrap;
+  line-height: 26px;
+}
+
+
+.blockheader h3.t a,
+.blockheader h3.t a:link,
+.blockheader h3.t a:visited, 
+.blockheader h3.t a:hover
+{
+  color: #6382A1;
+  font-family: Tahoma, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+}
+
+
+
+/* end BlockHeader */
 
 /* begin Box, BlockContent */
 .blockcontent
@@ -754,7 +790,7 @@ h2.logo-text
 .blockcontent-body
 {
   position: relative;
-  padding: 0;
+  padding: 5px;
   color: #2E3D4C;
   font-family: Tahoma, Arial, Helvetica, Sans-Serif;
   font-size: 13px;
@@ -1259,7 +1295,7 @@ h2.postheader a:hover,  h2.postheader a.hovered
   font-style: normal;
   font-weight: normal;
   text-decoration: underline;
-  color: #5096BE;
+  color: #79AECD;
 }
 
 .page-footer

@@ -33,7 +33,7 @@
 						<div class="nav-l"></div>
 						<div class="nav-r"></div>
 						<ul class="menu">
-							<li><a href="./me.php"><span class="l"> </span><span class="r"> </span><span class="t">ME</span></a></li>
+							<li><a href="./me.php"><span class="l"> </span><span class="r"> </span><span class="t">About ME</span></a></li>
 							<li><a href="./learning.php" class="active"><span class="l"> </span><span class="r"> </span><span class="t">BLOG</span></a></li>
 							<li><a href="./career.php"><span class="l"> </span><span class="r"> </span><span class="t">CV</span></a></li>
 						</ul>

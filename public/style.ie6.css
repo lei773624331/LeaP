@@ -28,7 +28,7 @@ img
 }
 #page-background-top-texture, #page-background-middle-texture, #page-background-glare
 {
-  width: expression(document.body.clientWidth>800px?"100%":"800px");
+  width: expression(document.body.clientWidth>600px?"100%":"600px");
 }
 
 /* end Box, Sheet */
@@ -109,8 +109,8 @@ img
 
 .nav-r
 {
-  left: expression(this.parentNode.offsetWidth-800+'px');
-  clip: rect(auto auto auto 800px);
+  left: expression(this.parentNode.offsetWidth-600+'px');
+  clip: rect(auto auto auto 600px);
 }
 
 /* end Menu */
@@ -207,6 +207,15 @@ img
   zoom: 1;
 }
 /* end Box, Block */
+
+/* begin BlockHeader */
+.blockheader
+{
+  zoom: 1;
+
+}
+
+/* end BlockHeader */
 
 /* begin Box, BlockContent */
 .blockcontent, .blockcontent-body
