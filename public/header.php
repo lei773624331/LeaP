@@ -1,6 +1,5 @@
 <?php
 mysql_connect('localhost','root','');
-
 mysql_select_db('diary');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -10,7 +9,7 @@ mysql_select_db('diary');
     Created by Artisteer v3.0.0.35414
     Base template (without user's data) checked by http://validator.w3.org : "This page is valid XHTML 1.0 Transitional"
     -->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-7781" />
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
     <title>I'm Lea</title>
     <link rel="stylesheet" href="./style.css" type="text/css" media="screen" />
@@ -30,7 +29,7 @@ mysql_select_db('diary');
         <div class="header-center">
           <div class="header-jpeg"></div>
         </div>
-        <div class="logo">
+        <div class="logo">  
           <h1 id="name-text" class="logo-name"><a href="./index.php">Zhang Lei</a></h1>
           <h2 id="slogan-text" class="logo-text">do it or not do it there is no try</h2>
         </div>
@@ -42,7 +41,13 @@ mysql_select_db('diary');
           <li><a href="./me.php" <!--class="active"--><span class="l"> </span><span class="r"> </span><span class="t">About ME</span></a></li>
           <li><a href="./blog.php"><span class="l"> </span><span class="r"> </span><span class="t">BLOG</span></a></li>
           <li><a href="./cv.php"><span class="l"> </span><span class="r"> </span><span class="t">CV</span></a></li>
-        </ul>
+          <li>
+        <form action="profil.php" method="POST">
+Name: <input type="text" name="fname" />
+<input type="submit" />
+</form>
+          </li>
+          </ul>
       </div>
       <div class="content-layout">
         <div class="content-layout-row">
