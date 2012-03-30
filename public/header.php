@@ -1,9 +1,9 @@
 <?php
-//mysql_connect('localhost','root','');
-//mysql_select_db('diary');
+mysql_connect('localhost','root','');
+mysql_select_db('diary');
 
-mysql_connect('a.db.shared.orchestra.io','user_8afecbb7','guzHa-iCcR7%kU');
-mysql_select_db('db_8afecbb7');
+//mysql_connect('a.db.shared.orchestra.io','user_8afecbb7','guzHa-iCcR7%kU');
+//mysql_select_db('db_8afecbb7');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
