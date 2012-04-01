@@ -11,6 +11,16 @@ while($row = mysql_fetch_array($result)){?>
       </div>
       <div class="cleared"></div>
     </div>
+    <div class="post-inner article">
+      <h2 class="postheader">Twitter</h2>
+      <div class="postcontent">
+        <?php 
+		include('twitter.php');
+		$twitter = new Twitter();
+        echo $twitter->collectTweets() ?>
+      </div>
+      <div class="cleared"></div>
+    </div>
     <div class="cleared"></div>
   </div>
 </div>
